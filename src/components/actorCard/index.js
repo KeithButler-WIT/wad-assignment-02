@@ -23,7 +23,7 @@ export default function ActorCard({ actor, action }) {
   if (favourites.find((id) => id === actor.id)) {
     actor.favourite = true;
   } else {
-    actor.favourite = false
+    actor.favourite = false;
   }
 
   const handleAddToFavourite = (e) => {

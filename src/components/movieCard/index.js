@@ -26,7 +26,7 @@ export default function MovieCard({ movie, action }) {
   if (favourites.find((id) => id === movie.id)) {
     movie.favourite = true;
   } else {
-    movie.favourite = false
+    movie.favourite = false;
   }
 
   const handleAddToFavourite = (e) => {
@@ -37,7 +37,7 @@ export default function MovieCard({ movie, action }) {
   if (playlist.find((id) => id === movie.id)) {
     movie.playlist = true;
   } else {
-    movie.playlist = false
+    movie.playlist = false;
   }
 
   const handleAddToPlaylist = (e) => {

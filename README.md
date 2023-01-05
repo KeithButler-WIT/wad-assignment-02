@@ -1,22 +1,15 @@
 # Assignment 2 - Web API.
 
 ​
-Name: [Your Name]
+Name: Keith Butler
+Student Number: 20089137
 ​
 
 ## Features.
 
-​
-[A bullet-point list of the ADDITIONAL features/endpoints you have implemented in the API **THAT WERE NOT IN THE LABS** ].
-​
-
-- Feature 1 - .... a statement of its purpose/objective .....
+- Feature 1 - Popular Actors endpoint
   ​
-- Feature 2 - .......
-  ​
-- Feature 3 - ......
-  ​
-  e.g.
+- Feature 2 - Tv shows endpoint and parameterised URL
   ​
 - Get Similar Movies: Get a list of similar movies using a movie ID.
   ​

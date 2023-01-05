@@ -9,6 +9,7 @@ const ActorSchema = new Schema({
   id: { type: Number, required: true, unique: true },
   name: { type: String },
   popularity: { type: Number },
+  favourite: { type: Boolean},
 });
 
 ActorSchema.statics.findByActorDBId = function (id) {

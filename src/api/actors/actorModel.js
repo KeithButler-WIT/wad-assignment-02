@@ -16,4 +16,12 @@ ActorSchema.statics.findByActorDBId = function (id) {
   return this.findOne({ id: id });
 };
 
+ActorSchema.statics.findByActorDBName = function (name) {
+  return this.findOne({ name: name });
+};
+
+ActorSchema.statics.findByActorDBPopularity = function (popularity) {
+  return this.findOne({ popularity: popularity });
+};
+
 export default mongoose.model('Actors', ActorSchema);

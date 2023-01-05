@@ -38,4 +38,16 @@ MovieSchema.statics.findByMovieDBId = function (id) {
   return this.findOne({ id: id });
 };
 
+MovieSchema.statics.findByMovieDBLanguage = function (original_language) {
+  return this.findOne({ original_language: original_language });
+};
+
+MovieSchema.statics.findByMovieDBGenre = function (genre) {
+  return this.findOne({ genre: genre});
+};
+
+MovieSchema.statics.findByMovieDBReleaseDate = function (release_date) {
+  return this.findOne({ release_date: release_date});
+};
+
 export default mongoose.model("Movies", MovieSchema);

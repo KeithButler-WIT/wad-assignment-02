@@ -28,6 +28,17 @@ return fetch(
 ).then(res => res.json());
 };
 
+export const getMovieImages = () => {
+return fetch(
+    '/api/movies',{headers: {
+        // 'Content-Type': 'application/json'
+        'Authorization': window.localStorage.getItem('token')
+    },
+    // method: 'get',
+}
+).then(res => res.json());
+};
+
 export const getActors = () => {
 return fetch(
     '/api/actors',{headers: {

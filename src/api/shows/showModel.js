@@ -35,4 +35,16 @@ ShowSchema.statics.findByShowDBId = function (id) {
   return this.findOne({ id: id });
 };
 
+ShowSchema.statics.findByShowDBLanguage = function (original_language) {
+  return this.findOne({ original_language: original_language });
+};
+
+ShowSchema.statics.findByShowDBGenre = function (genre) {
+  return this.findOne({ genre: genre});
+};
+
+ShowSchema.statics.findByShowDBReleaseDate = function (release_date) {
+  return this.findOne({ release_date: release_date});
+};
+
 export default mongoose.model('Shows', ShowSchema);

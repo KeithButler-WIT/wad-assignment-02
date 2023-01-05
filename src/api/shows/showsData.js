@@ -12,12 +12,12 @@ export const shows = {
             ],
             "id": 791373,
             "original_language": "en",
-            "original_title": "Zack Snyder's Justice League",
+            "original_title": "Wednesday",
             "overview": "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
             "popularity": 11783.352,
             "poster_path": "/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
             "release_date": "2021-03-18",
-            "title": "Zack Snyder's Justice League",
+            "title": "Wednesday",
             "video": false,
             "vote_average": 8.7,
             "vote_count": 3389
@@ -87,29 +87,6 @@ export const shows = {
     ],
     "total_pages": 500,
     "total_results": 10000
-};
-
-export const showReviews = {
-    "id": 527774,
-    "page": 1,
-    "results": [
-        {
-            "author": "ted",
-            "content": "In a magical land known as Kumandra....",
-            "created_at": "2021-03-01T17:10:51.977Z",
-            "id": "603d201b33a533004bd1906e",
-            "updated_at": "2021-03-07T15:46:34.342Z"
-        },
-        {
-            "author": "bob",
-            "content": "If you enjoy reading my Spoiler-Free reviews, please follow my blog ",
-            "created_at": "2021-03-01T17:13:07.315Z",
-            "id": "603d20a3e267de005151480c",
-            "updated_at": "2021-03-07T15:47:13.254Z"
-        }
-    ],
-    "total_pages": 1,
-    "total_results": 2
 };
 
 export const showDetails = {
